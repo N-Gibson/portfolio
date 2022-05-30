@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.scss'
+// import './App.scss'
 // import { Route, Redirect } from 'react-router-dom'
 import { Home, Nav } from '@portfolio/Components'
 
