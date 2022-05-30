@@ -6,6 +6,7 @@
 .pnp.js
 .eslintrc.js
 .prettierrc
+tsconfig
 
 # testing
 /coverage
