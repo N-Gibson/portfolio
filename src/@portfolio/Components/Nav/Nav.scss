@@ -1,10 +1,51 @@
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   background-color: grey;
   color: #fff;
   margin: 2em;
   padding: 10px;
   border-radius: 50px;
   height: 3em;
+}
+
+.nav_h2:hover {
+  cursor: pointer;
+}
+
+.btn {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid teal;
+  outline: none;
+  transition: 1s ease-in-out;
+}
+
+svg {
+  position: absolute;
+  left: 343px;
+  top: 35px;
+  fill: none;
+  stroke: #fff;
+  stroke-dasharray: 150 480;
+  stroke-dashoffset: 150;
+  transition: 1s ease-in-out;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: teal;
+}
+
+.btn:hover svg {
+  stroke-dashoffset: -480;
+}
+
+.btn span {
+  color: white;
+  font-size: 18px;
+  font-weight: 100;
 }
